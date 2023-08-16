@@ -7,6 +7,7 @@ import Testimonial from "@/app/components/Testimonial";
 import Cta from "@/app/components/Cta";
 import Footer from "@/app/components/Footer";
 import BackToTopBtn from "@/app/components/BackToTopBtn";
+import Search from "./components/Search";
 
 export default function Home() {
     return (

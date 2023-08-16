@@ -9,10 +9,14 @@ import {useContext, useEffect, useState} from "react";
 import {useMediaQuery} from "react-responsive";
 import {BiMenuAltRight, BiX} from "react-icons/bi";
 
+// context
+import {SearchContext} from "../context/search";
+
 
 const Header = () => {
     const [header, setHeader] = useState(false)
     const [nav, setNav] = useState(false)
+    const {setSearchActive} = useContext(SearchContext)
 
     const desktopMode = useMediaQuery(
         {
@@ -23,12 +27,10 @@ const Header = () => {
     useEffect(() => {
 
         const handleScroll = () => {
-            if (window.scrollY > 40) {
-                setHeader(true)
+            window.scrollY > 40 ? setHeader(true) : setHeader(false)
 
-            } else {
-                setHeader(false)
-            }
+            //Search
+            window.scrollY > 800 ? setSearchActive(true) : setSearchActive(false);
 
         }
         // add event listener
@@ -81,14 +83,17 @@ const Header = () => {
                 </div>
                 {/* nav */}
                 <nav
-                className={`${nav? "max-h-max py-8 px-4 xl:py-0 xl:px-0" : "max-h-0 xl:max-h-max"} 
-                flex flex-col w-full bg-white gap-y-6 overflow-hidden font-bold xl:font-medium xl:flex-row xl:w-max`}
+                    className={`${nav ? "max-h-max py-8 px-4 xl:py-0 xl:px-0" : "max-h-0 xl:max-h-max"} 
+                flex flex-col w-full bg-white gap-y-6 overflow-hidden font-bold text-center text-sm
+                xl:font-medium xl:flex-row xl:w-max xl:gap-8 xl:h-max xl:bg-transparent xl:text-left uppercase xl:text-[15px] xl:normal-case
+                transition-all duration-150
+                `}
                 >
                     <Link className="cursor-pointer" to="home" activeClass="active" smooth={desktopMode} spy={true}>
                         Home
                     </Link>
 
-                    <Link className="cursor-pointer" to="card" activeClass="active" smooth={desktopMode} spy={true}>
+                    <Link className="cursor-pointer" to="cars" activeClass="active" smooth={desktopMode} spy={true}>
                         Cars
                     </Link>
 
@@ -100,7 +105,8 @@ const Header = () => {
                         Why us
                     </Link>
 
-                    <Link className="cursor-pointer" to="testomonial" activeClass="active" smooth={desktopMode} spy={true}>
+                    <Link className="cursor-pointer" to="testimonial" activeClass="active" smooth={desktopMode}
+                          spy={true}>
                         Testimonial
                     </Link>
 
@@ -113,6 +119,8 @@ const Header = () => {
                     " to="home" activeClass="active" smooth={desktopMode} spy={true}>
                         See all cards
                     </Link>
+
+                    <SearchMobile/>
 
                 </nav>
             </div>

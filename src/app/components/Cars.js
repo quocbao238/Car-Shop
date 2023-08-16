@@ -2,9 +2,13 @@ import React from 'react';
 
 const Cars = () => {
     return (
-        <div>
+        <section
+            className="h-screen flex items-center bg-yellow-200"
+            id="cars"
 
-        </div>
+        >
+            Cars
+        </section>
     );
 };
 

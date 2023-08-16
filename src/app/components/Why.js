@@ -2,9 +2,13 @@ import React from 'react';
 
 const Why = () => {
     return (
-        <div>
-            
-        </div>
+        <section
+            className="section flex items-center bg-green-300"
+            id={`why`}
+        >
+            Why
+
+        </section>
     );
 };
 
