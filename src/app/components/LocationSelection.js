@@ -42,13 +42,13 @@ const LocationSelection = () => {
                                     className="text-accent"
                                 />
                                 <div
-                                    className="text-[15px] uppercase font-bold"
+                                    className="text-[15px]  font-semibold"
                                 >
                                     Select Location
                                 </div>
                             </div>
                             <div
-                                className="uppercase font-medium text-[13px] text-secondary text-center
+                                className=" font-medium text-[13px] text-secondary text-center
                                 xl:ml-6 xl:text-left "
                             >
                                 {location}

@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* date range styles
+*/
+.rdrDayToday:not(.rdrDayPassive) .rdrInRage ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span::after {
+    background-color: #fff !important;
+}
+
+.rdrDayToday,
+.rdrDayNumber span:after {
+    background: #ed1d24 !important
+}
+
+.rdrMonthAndYearPickers {
+    font-size: 16px;
+
+}
+
+.rdrDayNumber,
+.rdrWeekDay {
+    color: #1e1f23 !important;
+    font-weight: 500 !important;
+}
+
+
 @layer base {
     body {
         @apply text-primary bg-body;
@@ -38,26 +65,32 @@
         text-[13px] flex justify-center items-center
         transition-all duration-300;
     }
-    .btn-sm{
+
+    .btn-sm {
         @apply h-14;
     }
-    .btn-lg{
+
+    .btn-lg {
         @apply h-16;
     }
-    .btn-cta{
+
+    .btn-cta {
         @apply bg-primary h-[54px] rounded-[5px] px-4 transition-all duration-300;
     }
 
-    .btn-primary{
+    .btn-primary {
         @apply bg-primary;
     }
-    .btn-secondary{
+
+    .btn-secondary {
         @apply bg-secondary;
     }
-    .btn-accent{
+
+    .btn-accent {
         @apply bg-accent;
     }
-    .active{
+
+    .active {
         @apply text-accent;
     }
 
