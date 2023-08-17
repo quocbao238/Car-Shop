@@ -88,6 +88,7 @@
 
     .btn-accent {
         @apply bg-accent;
+        @apply hover:bg-accent/40
     }
 
     .active {
