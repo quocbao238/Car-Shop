@@ -28,6 +28,13 @@
     font-weight: 500 !important;
 }
 
+/*swiper style*/
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullets,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+.swiper-pagination-bullet {
+    background-color: #f13024;
+}
+
 
 @layer base {
     body {
