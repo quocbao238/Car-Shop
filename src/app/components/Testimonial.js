@@ -1,15 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 const Testimonial = () => {
-    return (
-        <section
-            className="section flex items-center bg-cyan-300"
-            id={`testimonial`}
-        >
-            Testimonial
+	return (
+		<section
+			className="section flex items-center bg-cyan-300"
+			id={`testimonial`}>
+			Testimonial
+		</section>
+	)
+}
 
-        </section>
-    );
-};
-
-export default Testimonial;
+export default Testimonial

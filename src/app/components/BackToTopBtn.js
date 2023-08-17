@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const BackToTopBtn = () => {
-    return (
-        <div>
-            BackToTopBtn
-        </div>
-    );
-};
+	return <div>BackToTopBtn</div>
+}
 
-export default BackToTopBtn;
+export default BackToTopBtn

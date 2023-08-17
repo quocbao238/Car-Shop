@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const TestimonialSlider = () => {
-    return (
-        <div>
-            TestimonialSlider
-        </div>
-    );
-};
+	return <div>TestimonialSlider</div>
+}
 
-export default TestimonialSlider;
+export default TestimonialSlider
