@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Copyright = () => {
 	return (
 		<div className="flex flex-col justify-center items-center border-t w-full shadow-sm">
-			<a href="https://www.youtube.com/watch?v=iWAUAOqCHks">
+			<a href="https://www.youtube.com/@cristianmihai01">
 				<div className="flex flex-row justify-center items-center w-full max-h-120 place-items-center">
 					<Image
 						id=""
