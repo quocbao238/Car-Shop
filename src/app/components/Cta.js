@@ -10,13 +10,16 @@ import { fadeIn } from '/variants'
 const Cta = () => {
 	return (
 		<section
-			className="section flex items-center"
+			className="pt-24 xl:pt-48 flex items-end pb-0 bg-[#b2b7c2]/10 overflow-hidden"
 			id={`contact`}>
 			<div className="container mx-auto">
-				<div className="flex flex-col md:flex-row xl:items-center">
+				<div
+					className="flex flex-col 
+				 md:flex-row 
+				 xl:items-center xl:flex-row xl:text-[16px] ">
 					{/*	Text*/}
 					<div className="flex-1 xl:ml-24 text-center md:text-left mb-12 md:mb-0">
-						<div className="mã-w-[520px] mx-auto order-2 xl:order-none">
+						<div className="max-w-[520px] mx-auto order-2 xl:order-none">
 							<motion.h2
 								className="h2"
 								variants={fadeIn('right', 0.2)}
@@ -66,7 +69,7 @@ const Cta = () => {
 					{/*	image */}
 					<motion.div
 						className="flex flex-1 justify-center order-1 md:order-none"
-						variants={fadeIn('up', 0.8)}
+						variants={fadeIn('left', 0.8)}
 						initial="hidden"
 						whileInView={'show'}
 						viewport={{ once: false, amount: 0.2 }}>

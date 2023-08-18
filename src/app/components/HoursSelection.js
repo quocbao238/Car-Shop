@@ -6,21 +6,22 @@ import { FaClock } from 'react-icons/fa'
 import { format } from 'date-fns'
 import { FaArrowRightLong } from 'react-icons/fa6'
 
-const hours = ['10:00 AM', '12:00 AM', '14:00 AM']
+const hours = ['10:00 AM', '12:00 AM', ' 14:00 AM']
 
 const HoursSelection = () => {
 	const [hour, setHour] = useState('10:00 AM')
 	const [hourEnd, setHourEnd] = useState('14:00 AM')
+
 	return (
 		<Menu
 			as="div"
 			className="w-full h-full flex xl:">
-			<div className={`relative flex flex-1`}>
+			<div className="relative flex flex-1">
 				<Menu.Button
-					className={`dropdown-btn w-full h-full flex flex-col justify-center items-center 
+					className={`dropdown-btn w-full h-full flex flex-col justify-center items-center
                 xl:pl-8 xl:items-start`}>
 					<div
-						className="flex flex-col items-center
+						className="flex flex-col  items-center
                                 xl:flex-row xl:gap-x-2 gap-y-2 xl:gap-y-0">
 						<FaClock className="text-accent" />
 						<div className="text-[15px]  font-semibold">Select Hours</div>
