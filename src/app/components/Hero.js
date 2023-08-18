@@ -66,7 +66,9 @@ const Hero = () => {
 								<Image
 									width={132}
 									height={36}
-									src={'/icons/buttons/app-store.svg'}
+									src={
+										'https://quocbao238.github.io/Car-Shop/icons/buttons/app-store.svg'
+									}
 									alt=""
 								/>
 							</button>
@@ -74,7 +76,9 @@ const Hero = () => {
 								<Image
 									width={132}
 									height={36}
-									src={'/icons/buttons/google-play.svg'}
+									src={
+										'https://quocbao238.github.io/Car-Shop/icons/buttons/google-play.svg'
+									}
 									alt=""
 								/>
 							</button>
@@ -94,7 +98,9 @@ const Hero = () => {
 						<Image
 							fill
 							style={{ objectFit: 'contain' }}
-							src={'/images/hero/car.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/images/hero/car.svg'
+							}
 							alt=""
 						/>
 					</motion.div>

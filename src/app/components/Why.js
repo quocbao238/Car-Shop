@@ -41,7 +41,7 @@ const Why = () => {
 					whileInView={'show'}
 					viewport={{ once: false, amount: 0.6 }}>
 					<Image
-						src="/images/why/car.svg"
+						src="https://quocbao238.github.io/Car-Shop/images/why/car.svg"
 						alt=""
 						width={1060}
 						height={420}

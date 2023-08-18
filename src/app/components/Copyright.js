@@ -9,7 +9,7 @@ const Copyright = () => {
 				<div className="flex flex-row justify-center items-center w-full max-h-120 place-items-center">
 					<Image
 						id=""
-						src="/icons/youtube.png"
+						src="https://quocbao238.github.io/Car-Shop/icons/youtube.png"
 						width={80}
 						height={120}
 					/>
@@ -24,7 +24,6 @@ const Copyright = () => {
 			<h5 className="text-center pb-16 pt-8 text-sm border-t">
 				This project to learnNext JS, Tailwind CSS
 			</h5>
-			
 		</div>
 	)
 } 

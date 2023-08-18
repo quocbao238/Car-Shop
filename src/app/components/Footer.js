@@ -36,7 +36,7 @@ const Footer = () => (
 						<Image
 							width={200}
 							height={200}
-							src="/icons/logo.svg"
+							src="https://quocbao238.github.io/Car-Shop/icons/logo.svg"
 							alt=""
 						/>
 					</Link>

@@ -15,16 +15,18 @@ const testimonialData = [
 	{
 		message:
 			'They truly exceeded my expectations and made my car rental experience a delight',
-		avatar: '/images/testimonial/avatar.png',
+		avatar:
+			'https://quocbao238.github.io/Car-Shop/images/testimonial/avatar.png',
 		name: 'John Son',
 		job: 'Photographer & Videographer',
 	}, //
 	{
 		message:
 			'They truly exceeded my expectations and made my car rental experience a delight',
-		avatar: '/images/testimonial/avatar.png',
-		name: 'John Son',
-		job: 'Photographer & Videographer',
+		avatar:
+			'https://quocbao238.github.io/Car-Shop/images/testimonial/avatar.png',
+		name: 'Thuy Tien',
+		job: 'Singer & Actor',
 	},
 ]
 

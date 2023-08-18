@@ -55,7 +55,7 @@ const Header = () => {
 						<Image
 							width={194}
 							height={64}
-							src="/icons/logo.svg"
+							src="https://quocbao238.github.io/Car-Shop/icons/logo.svg"
 							alt=""></Image>
 					</Link>
 					<div

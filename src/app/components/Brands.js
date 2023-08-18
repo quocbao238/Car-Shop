@@ -28,7 +28,9 @@ const Brands = () => {
 						<Image
 							width={85}
 							height={32}
-							src={'icons/brands/ford.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/ford.svg'
+							}
 							alt=""
 						/>
 					</div>
@@ -36,7 +38,9 @@ const Brands = () => {
 						<Image
 							width={60}
 							height={60}
-							src={'icons/brands/mercedes.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/mercedes.svg'
+							}
 							alt=""
 						/>
 					</div>
@@ -44,7 +48,9 @@ const Brands = () => {
 						<Image
 							width={85}
 							height={50}
-							src={'icons/brands/audi.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/audi.svg'
+							}
 							alt=""
 						/>
 					</div>
@@ -52,7 +58,9 @@ const Brands = () => {
 						<Image
 							width={60}
 							height={60}
-							src={'icons/brands/bmw.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/bmw.svg'
+							}
 							alt=""
 						/>
 					</div>
@@ -68,7 +76,9 @@ const Brands = () => {
 						<Image
 							width={60}
 							height={60}
-							src={'icons/brands/skoda.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/skoda.svg'
+							}
 							alt=""
 						/>
 					</div>
@@ -76,7 +86,9 @@ const Brands = () => {
 						<Image
 							width={62}
 							height={50}
-							src={'icons/brands/mazda.svg'}
+							src={
+								'https://quocbao238.github.io/Car-Shop/icons/brands/mazda.svg'
+							}
 							alt=""
 						/>
 					</div>

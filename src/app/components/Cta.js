@@ -51,7 +51,7 @@ const Cta = () => {
 									<Image
 										width={132}
 										height={36}
-										src="/icons/buttons/google-play.svg"
+										src="https://quocbao238.github.io/Car-Shop/icons/buttons/google-play.svg"
 										alt=""
 									/>
 								</button>
@@ -59,7 +59,7 @@ const Cta = () => {
 									<Image
 										width={132}
 										height={36}
-										src="/icons/buttons/app-store.svg"
+										src="https://quocbao238.github.io/Car-Shop/icons/buttons/app-store.svg"
 										alt=""
 									/>
 								</button>
@@ -76,7 +76,7 @@ const Cta = () => {
 						<Image
 							width={320}
 							height={640}
-							src="/images/cta/phone.svg"
+							src="https://quocbao238.github.io/Car-Shop/images/cta/phone.svg"
 							alt=""
 						/>
 					</motion.div>
