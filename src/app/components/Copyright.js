@@ -24,8 +24,9 @@ const Copyright = () => {
 			<h5 className="text-center pb-16 pt-8 text-sm border-t">
 				This project to learnNext JS, Tailwind CSS
 			</h5>
+			
 		</div>
 	)
-}
+} 
 
 export default Copyright
