@@ -32,7 +32,7 @@ const Hero = () => {
 							initial="hidden"
 							whileInView="show"
 							viewport={{
-								once: false,
+								once: true,
 								amount: 0.6,
 							}}
 							className="h1">
@@ -44,7 +44,7 @@ const Hero = () => {
 							initial="hidden"
 							whileInView="show"
 							viewport={{
-								once: false,
+								once: true,
 								amount: 0.6,
 							}}
 							className="description max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10">
@@ -56,7 +56,7 @@ const Hero = () => {
 							initial="hidden"
 							whileInView="show"
 							viewport={{
-								once: false,
+								once: true,
 								amount: 0.6,
 							}}
 							className="flex gap-x-3 justify-center
@@ -89,7 +89,7 @@ const Hero = () => {
 						initial="hidden"
 						whileInView="show"
 						viewport={{
-							once: false,
+							once: true,
 							amount: 0.6,
 						}}
 						className="relative w-full h-full
@@ -121,7 +121,7 @@ const Hero = () => {
 						initial="hidden"
 						whileInView="show"
 						viewport={{
-							once: false,
+							once: true,
 							amount: 0.2,
 						}}>
 						<Search />

@@ -143,7 +143,7 @@ const CarSlider = () => {
 			initial="hidden"
 			whileInView="show"
 			viewport={{
-				once: false,
+				once: true,
 				amount: 0.2,
 			}}>
 			<Swiper

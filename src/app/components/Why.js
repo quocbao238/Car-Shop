@@ -20,7 +20,7 @@ const Why = () => {
 					variants={fadeIn('up', 0.2)}
 					initial="hidden"
 					whileInView={'show'}
-					viewport={{ once: false, amount: 0.6 }}>
+					viewport={{ once: true, amount: 0.6 }}>
 					Unmatched excellence and customer satisfaction
 				</motion.h2>
 				<motion.p
@@ -28,7 +28,7 @@ const Why = () => {
 					variants={fadeIn('up', 0.4)}
 					initial="hidden"
 					whileInView={'show'}
-					viewport={{ once: false, amount: 0.6 }}>
+					viewport={{ once: true, amount: 0.6 }}>
 					Our dedication to providing exceptional services sets us apart
 					from the competition. From the moment you engage with us, we
 					strive to exceed your expectations in every interaction
@@ -39,7 +39,7 @@ const Why = () => {
 					variants={fadeIn('up', 0.6)}
 					initial="hidden"
 					whileInView={'show'}
-					viewport={{ once: false, amount: 0.6 }}>
+					viewport={{ once: true, amount: 0.6 }}>
 					<Image
 						src="https://quocbao238.github.io/Car-Shop/images/why/car.svg"
 						alt=""
@@ -54,7 +54,7 @@ const Why = () => {
 					variants={fadeIn('up', 0.6)}
 					initial="hidden"
 					whileInView={'show'}
-					viewport={{ once: false, amount: 0.4 }}>
+					viewport={{ once: true, amount: 0.4 }}>
 					{/*Item 1*/}
 					<div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
 						<MdKey className="text-[38px] text-accent mb-4" />

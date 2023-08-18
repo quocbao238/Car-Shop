@@ -25,14 +25,14 @@ const Cta = () => {
 								variants={fadeIn('right', 0.2)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.6 }}>
+								viewport={{ once: true, amount: 0.6 }}>
 								Download our App now and hit the road with ease.
 							</motion.h2>
 							<motion.p
 								variants={fadeIn('right', 0.4)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.6 }}
+								viewport={{ once: true, amount: 0.6 }}
 								className="mb-10">
 								Lorem Ipsum is simply dummy text of the printing and
 								typesetting industry. Lorem Ipsum has been the
@@ -46,7 +46,7 @@ const Cta = () => {
 								variants={fadeIn('up', 0.6)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.6 }}>
+								viewport={{ once: true, amount: 0.6 }}>
 								<button className="btn-cta">
 									<Image
 										width={132}
@@ -72,7 +72,7 @@ const Cta = () => {
 						variants={fadeIn('left', 0.8)}
 						initial="hidden"
 						whileInView={'show'}
-						viewport={{ once: false, amount: 0.2 }}>
+						viewport={{ once: true, amount: 0.2 }}>
 						<Image
 							width={320}
 							height={640}

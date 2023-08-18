@@ -38,7 +38,7 @@ const About = () => {
 						variants={fadeIn('right', 0.2)}
 						initial="hidden"
 						whileInView={'show'}
-						viewport={{ once: false, amount: 0.8 }}>
+						viewport={{ once: true, amount: 0.8 }}>
 						<Image
 							className="rounded-[20px]"
 							alt=""
@@ -60,7 +60,7 @@ const About = () => {
 								variants={fadeIn('up', 0.2)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.8 }}>
+								viewport={{ once: true, amount: 0.8 }}>
 								Car services simplified
 							</motion.h2>
 							<motion.p
@@ -68,7 +68,7 @@ const About = () => {
 								variants={fadeIn('up', 0.6)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.8 }}>
+								viewport={{ once: true, amount: 0.8 }}>
 								Rent, choose, and repair with ease. Our convenient
 								location, diverse car types, and reliable repair points
 								ensure a seamless car experience
@@ -78,7 +78,7 @@ const About = () => {
 								variants={fadeIn('up', 0.8)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.2 }}>
+								viewport={{ once: true, amount: 0.2 }}>
 								{/* Car Type */}
 								<div className="flex flex-col w-[100px]">
 									<MdOutlineDirectionsCar className="text-5xl text-accent" />
@@ -140,7 +140,7 @@ const About = () => {
 								variants={fadeIn('up', 1)}
 								initial="hidden"
 								whileInView={'show'}
-								viewport={{ once: false, amount: 0.6 }}>
+								viewport={{ once: true, amount: 0.6 }}>
 								See all cars
 							</motion.button>
 						</div>

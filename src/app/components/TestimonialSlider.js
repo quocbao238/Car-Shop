@@ -37,7 +37,7 @@ const TestimonialSlider = () => {
 			variants={fadeIn('up', 0.4)}
 			initial="hidden"
 			whileInView={'show'}
-			viewport={{ once: false, amount: 0.6 }}>
+			viewport={{ once: true, amount: 0.6 }}>
 			<Swiper
 				pagination={{
 					clickable: true,
