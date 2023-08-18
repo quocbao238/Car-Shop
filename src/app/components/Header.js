@@ -79,6 +79,7 @@ const Header = () => {
                 transition-all duration-150
                 `}>
 					<Link
+						onClick={() => setNav(false)}
 						className="cursor-pointer"
 						to="home"
 						activeClass="active"
@@ -88,6 +89,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(false)}
 						className="cursor-pointer"
 						to="cars"
 						activeClass="active"
@@ -97,6 +99,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(false)}
 						className="cursor-pointer"
 						to="about"
 						activeClass="active"
@@ -106,6 +109,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(!nav)}
 						className="cursor-pointer"
 						to="why"
 						activeClass="active"
@@ -115,6 +119,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(false)}
 						className="cursor-pointer"
 						to="testimonial"
 						activeClass="active"
@@ -124,6 +129,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(false)}
 						className="cursor-pointer"
 						to="contact"
 						activeClass="active"
@@ -133,6 +139,7 @@ const Header = () => {
 					</Link>
 
 					<Link
+						onClick={() => setNav(!nav)}
 						className="
                     xl:hidden btn btn-primary btn-sm max-w-[164px] mx-auto
                     "
