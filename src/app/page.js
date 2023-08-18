@@ -11,7 +11,7 @@ import Search from './components/Search'
 
 export default function Home() {
 	return (
-		<main className="bg-white mx-auto relative overflow-hidden scale-100">
+		<main className="max-w bg-white mx-auto relative overflow-hidden">
 			<Header />
 			<Hero />
 			<Cars />
